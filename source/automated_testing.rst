@@ -5,19 +5,41 @@ Automated Testing
 A test is a series of operations conducted to verify if code works as it is intended to. Tests are written to reaffirm the behaviour of code, to understand if
 their execution has changed over time. Tests are the fundamental component of Test-Driven Development.
 
-----------------------------
-Tests Should be Automated
-----------------------------
+
+..
+    
+    **"Tests Should be Automated"**
 
 There are many components of software that are manually tested. However, **all testing should be automated**. As a company, we should strive towards a high test
 coverage, and a 100% automated test pipeline. Automated tests help preserve the expected behaviour of code in the main repository. 
 
-******************************************************************
-Tests Should Be Written by the Developer Working on the Feature
-******************************************************************
+..
+
+    **"Tests Should Be Written by the Developer Working on the Feature"**
+
 
 As stated in the TDD philosophy, no code should be written without first having written the tests for it. In line with that idealogy, the developer who is working
 on a piece of code must write the tests. Offloading tests to another developer or another team is not a lean process.
+
+----------------------------
+Automated Testing Pyramid
+----------------------------
+
+.. image:: /_static/testing/testmicroservices.png
+    :height: 200
+    :align: center
+
+*Illustration: Automated Testing Pyramid*
+
+There are several *layers* of testing.
+
+*************
+Unit Tests
+*************
+
+These are tests written in the component layer. Each and every function, class definition and snippet must have tests. It is the design of TDD
+that the tests are written first, so these tests should be covered.
+
 
 ********************
 Data-Centric Tests
@@ -51,11 +73,11 @@ well as to measure the amount of time the APIs take for response.
 Desktop clients should be written, again using TDD, so that they can be tested automatically. There is no scenario in which manual testing of interfaces should be 
 conducted in today's day and age.
 
----------------------------
-Automated Testing Systems 
----------------------------
+------------------
+Continous Testing
+------------------
 
-There are many tools to perform automated testing. Two of these are Jenkins and Gitlab.
+There are many tools to perform *continuous*, automated testing. Two of these platforms are Jenkins and Gitlab.
 
 *********
 Jenkins
@@ -63,9 +85,9 @@ Jenkins
 
 Jenkins is a tool to automate just about anything. It is commonly used to integrate continuous tests, integration services and to run automated builds. Developers can use Jenkins to deploy code, run their tests or create installers once a particular branch has received a push.
 
-********
-Gitlab
-********
+*****************************
+Gitlab / Github Enterprise
+*****************************
 
 Gitlab and Github Enterprise both come with automated testing frameworks. Gitlab in particular is easy to set up on our local premises,
 with complete control over its data and orchestration.

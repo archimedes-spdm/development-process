@@ -15,8 +15,8 @@ Software Development Process: Reference Document
     version_control
     automated_testing
     automated_provisioning
-    continuous_integration
-    continuous_deployment
+    ci_cd
+
     rapid_prototyping
     shipping_code
     open_source
