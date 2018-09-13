@@ -71,3 +71,11 @@ Glossary
     dependency
         A software dependency is a requirement that needs to be fulfilled (another software or configuration) before a software can be installed completely. Without fulfilling a software's dependencies, 100% functionality cannot be expected.
 
+    Github
+        A web-based hosting service for git repositories. It provides bug tracking, feature requests, task management and wikis. Cloud based is free. On premises installation is paid. Owned by Microsoft as of June 04, 2018. `Github.com <https://github.com>`_
+
+    GitLab
+        A web-based Git repository manager that has in-built wiki, issue-tracking and CI/CD pipeline features. Can be installed on premises for free. `Gitlab.com <https://gitlab.com>`_
+    
+    Jenkins
+        An automation server that helps automate the deployment, delivery and integration part of the software development process. Can be installed on premises for free. `jenkins.io <https://jenkins.io>`_
