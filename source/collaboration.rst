@@ -61,4 +61,4 @@ Some with a little experience may have come across ``Mercurial``, ``Subversion``
 
 .. seealso:: 
 
-    This section is talking about **Version Control**. Readers can read more about these systems in `the corresponding section <version_control.rst>`_ in the documentation.
+    This section is talking about the concept of a version control system. Readers can read more in :ref:`vcs`_ in the documentation.
