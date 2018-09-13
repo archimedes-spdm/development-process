@@ -1,0 +1,8 @@
+*.py[cod]
+build
+env
+.vscode
+.svn
+.ipynb_notebooks
+
+
