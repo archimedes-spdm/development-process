@@ -1,6 +1,8 @@
 ========================
-Terms and Definitions
+Glossary
 ========================
+
+.. |RST| replace:: ReStructuredText
 
 .. glossary::
 

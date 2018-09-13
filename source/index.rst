@@ -1,12 +1,7 @@
 
 =====================================================
-Software Development Process: Proposal and Opinions
+Software Development Process: Reference Document
 =====================================================
-
-.. note::
-
-    This current release (|release|) of the documentation was generated on |today|.
-    Its contents may have changed in the time since. Please contact the author for the latest release.
 
 
 .. toctree::
