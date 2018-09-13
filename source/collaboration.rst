@@ -1,3 +1,5 @@
+.. _collab:
+
 =======================================
 Collaboration Across a Global Business
 =======================================
@@ -61,4 +63,4 @@ Some with a little experience may have come across ``Mercurial``, ``Subversion``
 
 .. seealso:: 
 
-    This section is talking about the concept of a version control system. Readers can read more in :ref:`vcs`_ in the documentation.
+    This section is talking about the concept of a version control system. Readers can read more in the :ref:`vcs` section.

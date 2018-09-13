@@ -1,15 +1,19 @@
-=========================================================
-Software Development Process: Proposal and Opinions
-========================================================
 
-.. note:: 
-    
-    This current release (|release|) of the documentation was generated on |today|. Its contents may have changed in the time since. Please contact the author for the latest release.
+=====================================================
+Software Development Process: Proposal and Opinions
+=====================================================
+
+.. note::
+
+    This current release (|release|) of the documentation was generated on |today|.
+    Its contents may have changed in the time since. Please contact the author for the latest release.
+
 
 .. toctree::
     :maxdepth: 2
-    :caption: Contents:
+    :caption: Contents
 
+    self
     introduction
     collaboration
     practises
@@ -24,3 +28,9 @@ Software Development Process: Proposal and Opinions
     enabling_machine_learning
     developers_not_licenses
     terms_and_definitions
+
+
+.. toctree::
+    :hidden:
+
+    references

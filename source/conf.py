@@ -12,7 +12,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -99,8 +99,8 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-
-
+html_last_updated_fmt = ""
+smartquotes = True
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
@@ -119,9 +119,10 @@ latex_elements = {
     'pointsize': '12pt',
 
     # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
+    # TODO: Figure out how to put thios.
+    # 'preamble': 'Made for GKN Driveline',
 
+    # 'atendofbody': 'Made for GKN Driveline',
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
@@ -134,7 +135,7 @@ latex_show_urls="inline"
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'SoftwareDevelopmentProcess.tex', 'Software Development Process',
-     'Vinay Keerthi', 'manual'),
+        'Vinay Keerthi (GKN Driveline)', 'manual'),
 ]
 
 
@@ -148,7 +149,7 @@ man_pages = [
 ]
 
 
-# -- Options for Texinfo output ----------------------------------------------
+# -Options for Texinfo output --------------------------------------------Made for GKN Driveline--
 
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
@@ -159,6 +160,7 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
+latex_logo = os.path.join("_static","logo.png")
 
 # -- Options for Epub output -------------------------------------------------
 
