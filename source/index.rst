@@ -22,6 +22,7 @@ Software Development Process: Reference Document
     open_source
     enabling_machine_learning
     developers_not_licenses
+    endnote
     terms_and_definitions
 
 
