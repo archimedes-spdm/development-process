@@ -56,7 +56,8 @@ Consider a simple software request.
 This is a very simple process, stripped of its complications. However, look at the looped section. In even the simplest
 requests, this section could get *very* complicated.
 
-Novice programmers, fresh out of college, might keep copies of their code, going so far as to rename versions as ``_v1.c``, ``_v2.c`` or some such. Others, who have some exposure to the world at large, will have encountered websites such as `Github <https://github.com>`_, `Gitlab <https://gitlab.com>`_ or `Atlassian Bitbucket <https://bitbucket.org>`_ during their studies
+Novice programmers, fresh out of college, might keep copies of their code, going so far as to rename versions as ``_v1.c``, ``_v2.c`` or some such.
+Others, who have some exposure to the world at large, will have encountered websites such as `Github <https://github.com>`_, `Gitlab <https://gitlab.com>`_ or `Atlassian Bitbucket <https://bitbucket.org>`_ during their studies
 or personal research.
 
 Some with a little experience may have come across ``Mercurial``, ``Subversion`` or even ``CVS``.
