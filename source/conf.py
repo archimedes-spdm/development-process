@@ -46,17 +46,17 @@ extensions = [
 ]
 
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3.7', None),
-    'numpy': ('http://docs.scipy.org/doc/numpy', None),
-    'scipy': ('http://docs.scipy.org/doc/scipy/reference', None),
-    'matplotlib': ('http://matplotlib.sourceforge.net', None),
-    'setuptools': ('https://setuptools.readthedocs.io/', None),
-    'click': ('http://click.pocoo.org', None),
-    'flask': ('http://flask.pocoo.org', None),
-    'sphinx': ('http://www.sphinx-doc.org/en/stable/', None),
-    'pipenv': ('https://pipenv.readthedocs.io/en/latest/', None),
-    'hypothesis': ('https://hypothesis.readthedocs.io/en/latest/', None),
-    'pytest': ('https://docs.pytest.org', None),
+    'python': ('https://docs.python.org/3.7', os.path.join('intersphinx','python','objects.inv')),
+    'numpy': ('http://docs.scipy.org/doc/numpy', os.path.join('intersphinx','numpy','objects.inv')),
+    'scipy': ('http://docs.scipy.org/doc/scipy/reference', os.path.join('intersphinx', 'scipy', 'objects.inv')),
+    'matplotlib': ('http://matplotlib.sourceforge.net', os.path.join('intersphinx', 'matplotlib', 'objects.inv')),
+    'setuptools': ('https://setuptools.readthedocs.io/', os.path.join('intersphinx', 'setuptools', 'objects.inv')),
+    'click': ('http://click.pocoo.org', os.path.join('intersphinx', 'click', 'objects.inv')),
+    'flask': ('http://flask.pocoo.org', os.path.join('intersphinx', 'flask', 'objects.inv')),
+    'sphinx': ('http://www.sphinx-doc.org/en/stable/', os.path.join('intersphinx', 'sphinx', 'objects.inv')),
+    'pipenv': ('https://pipenv.readthedocs.io/en/latest/', os.path.join('intersphinx', 'pipenv', 'objects.inv')),
+    'hypothesis': ('https://hypothesis.readthedocs.io/en/latest/', os.path.join('intersphinx', 'hypothesis', 'objects.inv')),
+    'pytest': ('https://docs.pytest.org', os.path.join('intersphinx', 'pytest', 'objects.inv')),
 
 }
 
