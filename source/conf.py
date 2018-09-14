@@ -42,7 +42,23 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.githubpages',
+    'sphinx.ext.intersphinx',
 ]
+
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3.7', None),
+    'numpy': ('http://docs.scipy.org/doc/numpy', None),
+    'scipy': ('http://docs.scipy.org/doc/scipy/reference', None),
+    'matplotlib': ('http://matplotlib.sourceforge.net', None),
+    'setuptools': ('https://setuptools.readthedocs.io/', None),
+    'click': ('http://click.pocoo.org', None),
+    'flask': ('http://flask.pocoo.org', None),
+    'sphinx': ('http://www.sphinx-doc.org/en/stable/', None),
+    'pipenv': ('https://pipenv.readthedocs.io/en/latest/', None),
+    'hypothesis': ('https://hypothesis.readthedocs.io/en/latest/', None),
+    'pytest': ('https://docs.pytest.org', None),
+
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -197,3 +213,5 @@ epub_exclude_files = ['search.html']
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+

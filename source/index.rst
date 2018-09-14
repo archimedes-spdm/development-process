@@ -11,19 +11,13 @@ Software Development Process: Reference Document
     self
     introduction
     stack
-    software_process
-
-    collaboration
     practises
+    software_process
     version_control
     automated_testing
     automated_provisioning
     ci_cd
-    rapid_prototyping
-    shipping_code
-    open_source
-    enabling_machine_learning
-    developers_not_licenses
+    extending
     endnote
     terms_and_definitions
 
@@ -31,10 +25,6 @@ Software Development Process: Reference Document
     :hidden:
 
     references
-
-
-
-
 
 
 ..
