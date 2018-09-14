@@ -16,10 +16,9 @@ In today's development scenario, services are orchestrated and deployed using to
 `Mesos <http://mesosphere.com>`, or `Kubernetes <https://kubernetes.io>`_. This ensures that the act of deploying services on an appropriate machine
 is taken away from a developer's todo list and representated as configuration files. These files tell the tool where to deploy their service.
 
-
-.. image: /_static/shipping/docker.png
+.. image:: /_static/shipping/docker.png
     :align: center
-    :height: 500
+    :width: 400
 
 *Illustration: Docker Swarm In Action*
 
