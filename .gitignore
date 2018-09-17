@@ -4,5 +4,6 @@ env
 .vscode
 .svn
 .ipynb_notebooks
+source/intersphinx
 
 
