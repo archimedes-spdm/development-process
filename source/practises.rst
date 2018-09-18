@@ -6,6 +6,11 @@ Practices
 
 This section details the software development practices that we embrace and follow.
 
+.. todo::
+
+    Change this section to list what practises we follow, and not *why*.
+
+
 .. _tdd:
 
 ------------------------

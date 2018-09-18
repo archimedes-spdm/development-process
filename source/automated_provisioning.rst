@@ -2,6 +2,11 @@
 Automated Provisioning
 ==========================
 
+.. todo::
+
+    Update this section so that it talks about what follow and not why we follow this. Move justification to the Process Selection and Justification document.
+
+
 :term:`Provisioning <provision>` is a software development term which talks about the installation, configuration and management of software from a
 system administrator's perspective.
 
