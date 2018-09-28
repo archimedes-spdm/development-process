@@ -157,7 +157,7 @@ To develop a user interface, Python GUI frameworks are discouraged. All user int
 :term:`Electron`, :term:`html` and :term:`ES6 Javascript <ecmascript>`.
 
 **************************
-Web Development
+nodejs
 **************************
 
 All webpages shall be developed using React, npm and bulma css. SASS/SCSS files for company colors and branding are served at the `CDN <https://cdn.driveline.gkn.com>`_.
@@ -219,6 +219,20 @@ Redis
 Redis is the cache of choice. Do not use Redis for message storage, however.
 
 ----------------------------
+Containerization
+----------------------------
+
+***************************
+Docker
+***************************
+
+All automated builds and containers shall use docker. All microservices, which do not rely on the GPU directly, shall use docker containers.
+
+.. note::
+
+    Look into performances for CUDA code on docker containers. I suspect that the code will run at almost native speed through docker.
+
+----------------------------
 Orchestration
 ----------------------------
 
@@ -226,9 +240,17 @@ Orchestration
 Docker Swarm
 **************
 
+Docker containers for microservices or automated builds will be deployed using docker swarm.
+
+
 **************
 Apache Mesos
 **************
+
+.. todo::
+
+    Evaluate mesos for deploying and orchestrating non dockerized services, as well as dockerized services.
+
 
 ------------------------------
 Service Discovery
@@ -265,6 +287,10 @@ Provisioning
 ******************
 Ansible
 ******************
+
+Ansible is our solution of choice when it comes to provisioning servers. All installations should happen through Ansible playbooks. This
+ensures that the installation process is recorded and version-controlled.
+
 
 ------------------------------
 Log Services

@@ -4,11 +4,12 @@
 Practices
 ==========
 
-This section details the software development practices that we embrace and follow.
-
 .. todo::
 
     Change this section to list what practises we follow, and not *why*.
+
+This section details the software development practices that we embrace and follow.
+
 
 
 .. _tdd:
@@ -59,7 +60,8 @@ and deployment can be measured and maintained with precision.
 .. admonition:: Online Reference
     :class: tip
 
-    This section is largely adapted from `the official Scrum webpage <https://www.scrum.org/resources/what-is-scrum>`_. Reading that page directly is recommended.
+    This section is largely adapted from `the official Scrum webpage <https://www.scrum.org/resources/what-is-scrum>`_.
+    Reading that page directly is recommended.
 
 
 **Scrum** is a software development *philosophy* that originates from **Agile Software Development** principles.
