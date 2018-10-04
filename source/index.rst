@@ -11,8 +11,9 @@ Software Development Process: Reference Document
     self
     introduction
     software_process
-    stack
     practises
+    stack
+    infrastructure
     version_control
     automated_testing
     automated_provisioning
@@ -21,12 +22,15 @@ Software Development Process: Reference Document
     endnote
     terms_and_definitions
 
-.. toctree::
-    :hidden:
+.. only:: html
 
-    references
+    .. toctree::
+        :hidden:
+        
+        references
+        appendix-a
+        appendix-b
 
 
-..
-    Need to review all sections. This branch needs to be the reference document. It will have content
+.. Need to review all sections. This branch needs to be the reference document. It will have content
     that shows what we "will do", not why.
