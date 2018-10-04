@@ -26,7 +26,7 @@ author = 'Vinay Keerthi'
 # The short X.Y version
 version = '0.2'
 # The full version, including alpha/beta/rc tags
-release = '0.2-tc'
+release = '0.2-draft'
 
 
 # -- General configuration ---------------------------------------------------
@@ -64,7 +64,8 @@ intersphinx_mapping = {
     'mongoengine': ('http://docs.mongoengine.org/', get_objectsinv('mongoengine')),
     'cookiecutter': ('https://cookiecutter.readthedocs.io/en/latest/', get_objectsinv('cookiecutter')),
     'faker': ('https://faker.readthedocs.io/en/latest/', get_objectsinv('faker')),
-    'ansible': ('https://docs.ansible.com/ansible/latest/', get_objectsinv('ansible'))
+    'ansible': ('https://docs.ansible.com/ansible/latest/', get_objectsinv('ansible')),
+    'cython': ('http://docs.cython.org/en/latest/', get_objectsinv('cython'))
 }
 
 # Add any paths that contain templates here, relative to this directory.
@@ -93,7 +94,6 @@ exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
-
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -159,7 +159,7 @@ latex_elements = {
     # 'figure_align': 'htbp',
 }
 
-latex_show_urls="inline"
+latex_show_urls = "footnote"
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -169,7 +169,7 @@ latex_documents = [
         'Vinay Keerthi (GKN Driveline)', 'manual'),
 ]
 
-
+latex_appendices = ["appendix-a", "appendix-b", "references"]
 # -- Options for manual page output ------------------------------------------
 
 # One entry per manual page. List of tuples
