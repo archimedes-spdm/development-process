@@ -382,6 +382,7 @@ Consul
 -------------------------------
 Search Services
 -------------------------------
+.. _elk:
 
 *********************
 ELK Stack
@@ -415,7 +416,7 @@ Provisioning
 Ansible
 ******************
 
-Ansible is our solution of choice when it comes to provisioning servers.
+:doc:`Ansible <ansible:index>` is our solution of choice when it comes to provisioning servers.
 All installations and should happen through Ansible playbooks.
 This ensures that the installation process is recorded and version-controlled.
 
