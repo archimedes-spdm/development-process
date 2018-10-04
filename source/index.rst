@@ -5,14 +5,14 @@ Software Development Process: Reference Document
 
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
     :caption: Contents
 
     self
     introduction
+    software_process
     stack
     practises
-    software_process
     version_control
     automated_testing
     automated_provisioning
