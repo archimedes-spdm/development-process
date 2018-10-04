@@ -24,9 +24,9 @@ copyright = '2018, GKN'
 author = 'Vinay Keerthi'
 
 # The short X.Y version
-version = '0.1'
+version = '0.2'
 # The full version, including alpha/beta/rc tags
-release = '0.1-alpha'
+release = '0.2-tc'
 
 
 # -- General configuration ---------------------------------------------------
@@ -45,19 +45,26 @@ extensions = [
     'sphinx.ext.intersphinx',
 ]
 
+def get_objectsinv(module):
+    return os.path.join('intersphinx', module, 'objects.inv')
+    
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3.7', os.path.join('intersphinx','python','objects.inv')),
-    'numpy': ('http://docs.scipy.org/doc/numpy', os.path.join('intersphinx','numpy','objects.inv')),
-    'scipy': ('http://docs.scipy.org/doc/scipy/reference', os.path.join('intersphinx', 'scipy', 'objects.inv')),
-    'matplotlib': ('http://matplotlib.sourceforge.net', os.path.join('intersphinx', 'matplotlib', 'objects.inv')),
-    'setuptools': ('https://setuptools.readthedocs.io/', os.path.join('intersphinx', 'setuptools', 'objects.inv')),
-    'click': ('http://click.pocoo.org', os.path.join('intersphinx', 'click', 'objects.inv')),
-    'flask': ('http://flask.pocoo.org', os.path.join('intersphinx', 'flask', 'objects.inv')),
-    'sphinx': ('http://www.sphinx-doc.org/en/stable/', os.path.join('intersphinx', 'sphinx', 'objects.inv')),
-    'pipenv': ('https://pipenv.readthedocs.io/en/latest/', os.path.join('intersphinx', 'pipenv', 'objects.inv')),
-    'hypothesis': ('https://hypothesis.readthedocs.io/en/latest/', os.path.join('intersphinx', 'hypothesis', 'objects.inv')),
-    'pytest': ('https://docs.pytest.org', os.path.join('intersphinx', 'pytest', 'objects.inv')),
-
+    'python': ('https://docs.python.org/3.7', get_objectsinv('python')),
+    'numpy': ('http://docs.scipy.org/doc/numpy', get_objectsinv('numpy')),
+    'scipy': ('http://docs.scipy.org/doc/scipy/reference', get_objectsinv( 'scipy')),
+    'matplotlib': ('https://matplotlib.org/', get_objectsinv( 'matplotlib')),
+    'setuptools': ('https://setuptools.readthedocs.io/en/latest/', get_objectsinv( 'setuptools')),
+    'click': ('http://click.pocoo.org', get_objectsinv('click')),
+    'flask': ('http://flask.pocoo.org/docs', get_objectsinv('flask')),
+    'sphinx': ('http://www.sphinx-doc.org/en/stable/', get_objectsinv('sphinx')),
+    'pipenv': ('https://pipenv.readthedocs.io/en/latest/', get_objectsinv('pipenv')),
+    'hypothesis': ('https://hypothesis.readthedocs.io/en/latest/', get_objectsinv('hypothesis')),
+    'pytest': ('https://docs.pytest.org/en/latest/', get_objectsinv('pytest')),
+    'flake8': ('http://flake8.pycqa.org/en/latest/', get_objectsinv('flake8')),
+    'mongoengine': ('http://docs.mongoengine.org/', get_objectsinv('mongoengine')),
+    'cookiecutter': ('https://cookiecutter.readthedocs.io/en/latest/', get_objectsinv('cookiecutter')),
+    'faker': ('https://faker.readthedocs.io/en/latest/', get_objectsinv('faker')),
+    'ansible': ('https://docs.ansible.com/ansible/latest/', get_objectsinv('ansible'))
 }
 
 # Add any paths that contain templates here, relative to this directory.
@@ -213,5 +220,6 @@ epub_exclude_files = ['search.html']
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
-
+# Figure Numbering
+numfig=True
 
